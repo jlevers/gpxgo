@@ -15,12 +15,12 @@ import (
 	"time"
 )
 
-const formattingTimelayout = "2006-01-02T15:04:05Z"
+const formattingTimelayout = "2006-01-02T15:04:05.000Z"
 
 // parsingTimelayouts defines a list of possible time formats
 var parsingTimelayouts = []string{
-	"2006-01-02T15:04:05.000Z",
 	formattingTimelayout,
+	"2006-01-02T15:04:05Z",
 	"2006-01-02T15:04:05",
 	"2006-01-02 15:04:05Z",
 	"2006-01-02 15:04:05",
